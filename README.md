@@ -6,20 +6,20 @@ A Responsive Flutter Example Project Starter , BoilerPlate.
 
 ### Mobile (xs,sm)
 
-![Mobile](https://github.com/khamalfa/responsive_flutter_boilerplate/tree/main/ss/01mobile.png)
+![Mobile](https://raw.githubusercontent.com/khamalfa/responsive_flutter_boilerplate/main/ss/01mobile.png)
 
 ### Tablet (md,lg)
 
-![Tablet](https://github.com/khamalfa/responsive_flutter_boilerplate/tree/main/ss/02tablet.png)
+![Tablet](https://raw.githubusercontent.com/khamalfa/responsive_flutter_boilerplate/main/ss/02tablet.png)
 
 ### Website (xl)
 
-![Website](https://github.com/khamalfa/responsive_flutter_boilerplate/tree/main/ss/03website.png)
+![Website](https://raw.githubusercontent.com/khamalfa/responsive_flutter_boilerplate/main/ss/03website.png)
 
 ### Another
 
-![Hamburger](https://github.com/khamalfa/responsive_flutter_boilerplate/tree/main/ss/05hamburger.png)
-![Buttons](https://github.com/khamalfa/responsive_flutter_boilerplate/tree/main/ss/06buttontrigger.png)
+![Hamburger](https://raw.githubusercontent.com/khamalfa/responsive_flutter_boilerplate/main/ss/05hamburger.png)
+![Buttons](https://raw.githubusercontent.com/khamalfa/responsive_flutter_boilerplate/main/ss/06buttontrigger.png)
 
 ## Getting Started
 
