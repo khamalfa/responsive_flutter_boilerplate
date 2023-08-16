@@ -6,29 +6,27 @@ A Responsive Flutter Example Project Starter , BoilerPlate.
 
 ### Mobile (xs,sm) & Tablet (md,lg)
 
-![Mobile]
-
 <div style="display: flex; justify-content: space-between;">
     <div style="flex-basis: 48%;">
-        <src="https://raw.githubusercontent.com/khamalfa/responsive_flutter_boilerplate/main/ss/01mobile.png" width="250">
+        <img src="https://raw.githubusercontent.com/khamalfa/responsive_flutter_boilerplate/main/ss/01mobile.png" width="250">
     </div>
     <div style="flex-basis: 48%;">
-     <src="https://raw.githubusercontent.com/khamalfa/responsive_flutter_boilerplate/main/ss/02tablet.png" height="400"> 
+     <img src="https://raw.githubusercontent.com/khamalfa/responsive_flutter_boilerplate/main/ss/02tablet.png" height="400"> 
     </div>
 </div>
 
 ### Website (xl)
 
-![Website]<src="https://raw.githubusercontent.com/khamalfa/responsive_flutter_boilerplate/main/ss/03website.png" width="500" height="300">
+<img src="https://raw.githubusercontent.com/khamalfa/responsive_flutter_boilerplate/main/ss/03website.png">
 
 ### Hamburger & buttoTriggers
 
 <div style="display: flex; justify-content: space-between;">
     <div style="flex-basis: 48%;">
-        <src="https://raw.githubusercontent.com/khamalfa/responsive_flutter_boilerplate/main/ss/05hamburger.png" width="300"> 
+        <img src="https://raw.githubusercontent.com/khamalfa/responsive_flutter_boilerplate/main/ss/05hamburger.png" width="300"> 
     </div>
     <div style="flex-basis: 48%;">
-        <src="https://raw.githubusercontent.com/khamalfa/responsive_flutter_boilerplate/main/ss/06buttontrigger.png" width="400" height="300">
+        <img src="https://raw.githubusercontent.com/khamalfa/responsive_flutter_boilerplate/main/ss/06buttontrigger.png" width="400" height="300">
     </div>
 </div>
 
