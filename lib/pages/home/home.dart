@@ -266,7 +266,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                     ),
                                     Container(
                                         padding: EdgeInsets.symmetric(
-                                            horizontal: 10, vertical: 7),
+                                            horizontal: 5, vertical: 7),
                                         decoration: BoxDecoration(
                                             color: optionDayValue == 0
                                                 ? AppColors.accentColor
@@ -285,7 +285,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                           children: [
                                             Text(
                                               hourStartValue +
-                                                  '  -  ' +
+                                                  ' - ' +
                                                   hourEndValue,
                                               style: TextStyle(
                                                   color: AppColors
@@ -293,7 +293,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                                   fontWeight: FontWeight.bold),
                                             ),
                                             SizedBox(
-                                              width: 10,
+                                              width: 5,
                                             ),
                                             Icon(
                                               Icons.access_time,
