@@ -123,7 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ? null
           : HomeOptionsHamburger(key: ValueKey('Drawer')),
       body: Container(
-        color: AppColors.primaryBackgroundColor,
+        color: Color.fromARGB(231, 170, 208, 255),
         padding: alwaysDisplayDrawer
             ? EdgeInsets.symmetric(horizontal: 20, vertical: 10)
             : EdgeInsets.symmetric(horizontal: 10, vertical: 10),
@@ -176,9 +176,6 @@ class _MyHomePageState extends State<MyHomePage> {
                                     })
                                   },
                                 ),
-                                SizedBox(
-                                  width: 10,
-                                ),
                                 // [[SEGMENTED AM:PM]]
                                 optionDayValue == 2
                                     ? CupertinoSegmentedControl(
@@ -190,7 +187,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                             i: Container(
                                               child: Text(listOptionHour[i]),
                                               padding: EdgeInsets.symmetric(
-                                                  horizontal: 10, vertical: 5),
+                                                  horizontal: 5, vertical: 5),
                                             ),
                                         },
                                         onValueChanged: (int? value) => {
@@ -288,7 +285,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                           children: [
                                             Text(
                                               hourStartValue +
-                                                  '      -      ' +
+                                                  '  -  ' +
                                                   hourEndValue,
                                               style: TextStyle(
                                                   color: AppColors

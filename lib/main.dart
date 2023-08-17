@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
           builder: (context, child) {
             return Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [Expanded(child: child!), LayoutBar()],
+              children: [Expanded(child: child!)],
             );
           },
           home: MyHomePage(title: 'hamlet')),

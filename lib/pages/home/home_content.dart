@@ -10,6 +10,8 @@ class HomeContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final double spacing = BreakpointValue(xs: 3.0, sm: 10.0).resolve(context);
+    final double dynamicHeight =
+        BreakpointValue(xs: 137.0, sm: 140.0).resolve(context);
     final List<ContentOfficeClass> listContentOffice = ContentOfficeData;
 
     return Scrollbar(
@@ -49,7 +51,7 @@ class HomeContent extends StatelessWidget {
                     lg: 2,
                     xl: 2, // two row if screen is xl
                   ),
-                  mainAxisExtent: 120,
+                  mainAxisExtent: dynamicHeight,
                   mainAxisSpacing: spacing,
                   crossAxisSpacing: spacing,
                 ),

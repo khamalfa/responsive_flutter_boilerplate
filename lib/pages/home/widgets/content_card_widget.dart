@@ -18,14 +18,16 @@ class ContentOfficeCard extends StatelessWidget {
     final responsiveCardDecoration = BreakpointValue(
       xs: BoxDecoration(
         color: Colors.white,
-        border: Border(
-          bottom: BorderSide(color: Theme.of(context).dividerColor),
-        ),
+        borderRadius: BorderRadius.circular(12),
       ),
       sm: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(12),
       ),
+    );
+    final bookButtonSize = BreakpointValue(
+      xs: Size(100, 45),
+      md: Size(120, 50),
     );
     return Container(
       decoration: responsiveCardDecoration.resolve(context),
@@ -168,6 +170,7 @@ class ContentOfficeCard extends StatelessWidget {
                           style: TextStyle(fontSize: 13),
                         ),
                         style: ElevatedButton.styleFrom(
+                            minimumSize: bookButtonSize.resolve(context),
                             backgroundColor: data.isAvail
                                 ? AppColors.primaryColor
                                 : AppColors.accentBackgroundColor),
