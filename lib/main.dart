@@ -1,5 +1,4 @@
 import 'package:example/constants/colors.dart';
-import 'package:example/layout_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:layout/layout.dart';
 

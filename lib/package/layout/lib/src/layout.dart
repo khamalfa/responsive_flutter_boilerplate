@@ -134,7 +134,7 @@ class _LayoutState extends State<Layout> {
         final Size size = constraints.biggest;
 
         final MediaQueryData mediaQuery = MediaQuery.maybeOf(context) ??
-            MediaQueryData.fromWindow(
+            MediaQueryData.fromView(
               WidgetsBinding.instance.window,
             );
         final visualDensity = format.visualDensity(context);
