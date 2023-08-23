@@ -1,0 +1,21 @@
+name: layout
+description: Layout encourage consistency across platforms, environments, and screen sizes by using uniform elements and spacing.
+version: 1.0.4
+homepage: https://github.com/jamesblasco/layout
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  gap: "^3.0.1"
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+flutter:
